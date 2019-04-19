@@ -1,0 +1,31 @@
+ANA Anaheim Ducks #f95602 #111
+ARI Arizona Coyotes #8C2633 #E2D6B5
+BOS Boston Bruins #111 #FCB514
+BUF Buffalo Sabres #002654 #FCB514
+CGY Calgary Flames #B72B35 #F1BE48
+CAR Carolina Hurricanes #B72B35 #111
+CHI Chicago Blackhawks #CF0A2C #111
+COL Colorado Avalanche #6F263D #236192
+CBJ Columbus Blue Jackets #002654 #CE1126
+DAL Dallas Stars #006847 #8F8F8C
+DET Detroit Red Wings #CE1126 #CE1126
+EDM Edmonton Oilers #041E41 #FF4C00
+FLA Florida Panthers #041E42 #C8102E
+LAK Los Angeles Kings #111111 #a2aaad
+MIN Minnesota Wild #004F30 #C51230
+MTL Montreal Canadiens #C51230 #192168
+NSH Nashville Predators #041E42 #FFB81C
+NJD New Jersey Devils #CE1126 #111
+NYI New York Islanders #00529B #F47920
+NYR New York Rangers #0038A8 #CE1126
+OTT Ottawa Senators #E31837 #111
+PHI Philadelphia Flyers #F74902 #000
+PIT Pittsburgh Penguins #000 #FCB514
+STL St. Louis Blues #002F87 #FCB514
+SJS San Jose Sharks #006D75 #EA7200
+TBL Tampa Bay Lightning #002868 #000
+TOR Toronto Maple Leafs #003E7E #003E7E
+VAN Vancouver Canucks #001F5C #021B2C
+VGK Vegas Golden Knights #B4975A #333F42
+WSH Washington Capitals #041E41 #CF0A2C
+WPG Winnipeg Jets #041E41 #AC162C
