@@ -12,8 +12,8 @@ class Team:
     ]
 
     def __init__(self, **data):
-        self.data = data
-        self.set_data()
+        for key, value in data:
+            print(key, value)
 
     def set_data(self):
         for item in self.data.items():
@@ -25,6 +25,9 @@ class Team:
 
 
 raw_team_data = requests.get("https://statsapi.web.nhl.com/api/v1/teams")
+
+jsoned_team_data = json.loads(raw_team_data)
+
 
 team_file_dir = os.path.join(os.path.abspath(os.path.join(os.path.curdir, os.path.pardir)),"teams.txt")
 print(team_file_dir)
