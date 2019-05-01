@@ -4,7 +4,7 @@ import sqlite3, os, requests, json
 
 class Team:
 
-    CURRENT_DB_FIELDS = {
+    CURRENT_DB_FIELD_MAPPINGS = {
         'abbreviation': 'CODE',
         'locationName': 'CITY',
         'teamName': 'NAME',
@@ -14,7 +14,7 @@ class Team:
 
     def __init__(self, **data):
         for key in data:
-            if key in self.CURRENT_DB_FIELDS.keys():
+            if key in self.CURRENT_DB_FIELD_MAPPINGS.keys():
                 setattr(self, key, data[key])
 
         self.insert_into_db()
@@ -22,27 +22,32 @@ class Team:
     def insert_into_db(self):
         # If the thing exists, use UPDATE, otherwise - USE INSERT
         check_select = "SELECT CODE FROM TEAMS WHERE ? = ?"
-        history_database.database_connection.execute(check_select, self.CURRENT_DB_FIELDS['abbreviation'], self.abbreviation)  # a little absurd, eh?
+        history_database.database_connection.execute(check_select, self.CURRENT_DB_FIELD_MAPPINGS['abbreviation'], self.abbreviation)  # a little absurd, eh?
+        if self.abbreviation == None:
+            insert_statement = "INSERT INTO TEAMS (CODE, CITY, NAME) VALUES (?, ?, ?)"
+        else:
+            pass
         pass
 
     # def update_team(self):
 
 
-data_dict = {
-    'abbreviation': 'CHI',
-    'locationName': 'Chicago',
-    'teamName': 'Blackhawks'
-}
-
-blackhawks = Team(**data_dict)
-
-
-
-# raw_team_data = requests.get("https://statsapi.web.nhl.com/api/v1/teams")
+# data_dict = {
+#     'abbreviation': 'CHI',
+#     'locationName': 'Chicago',
+#     'teamName': 'Blackhawks'
+# }
 #
-# jsoned_team_data = json.loads(raw_team_data)
-#
-#
+# blackhawks = Team(**data_dict)
+
+raw_team_data = requests.get("https://statsapi.web.nhl.com/api/v1/teams")
+jsoned_data = json.loads(raw_team_data.content)
+json_team_data = jsoned_data['teams']
+print(json_team_data)
+
+for team in json_team_data:
+    print(team)
+
 # team_file_dir = os.path.join(os.path.abspath(os.path.join(os.path.curdir, os.path.pardir)),"teams.txt")
 # print(team_file_dir)
 # team_file = open(team_file_dir, "w")
