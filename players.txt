@@ -1,0 +1,359 @@
+b'{
+   \n  "copyright":"NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. \xc2\xa9 NHL 2019. All Rights Reserved.",
+   \n  "teams":[
+      {
+         \n    "id":16,
+         \n    "name":"Chicago Blackhawks",
+         \n    "link":"/api/v1/teams/16",
+         \n    "venue":{
+            \n      "id":5092,
+            \n      "name":"United Center",
+            \n      "link":"/api/v1/venues/5092",
+            \n      "city":"Chicago",
+            \n      "timeZone":{
+               \n        "id":"America/Chicago",
+               \n        "offset":-5,
+               \n        "tz":"CDT"               \n
+            }            \n
+         },
+         \n    "abbreviation":"CHI",
+         \n    "teamName":"Blackhawks",
+         \n    "locationName":"Chicago",
+         \n    "firstYearOfPlay":"1926",
+         \n    "division":{
+            \n      "id":16,
+            \n      "name":"Central",
+            \n      "nameShort":"CEN",
+            \n      "link":"/api/v1/divisions/16",
+            \n      "abbreviation":"C"            \n
+         },
+         \n    "conference":{
+            \n      "id":5,
+            \n      "name":"Western",
+            \n      "link":"/api/v1/conferences/5"            \n
+         },
+         \n    "franchise":{
+            \n      "franchiseId":11,
+            \n      "teamName":"Blackhawks",
+            \n      "link":"/api/v1/franchises/11"            \n
+         },
+         \n    "roster":{
+            \n      "roster":[
+               {
+                  \n        "person":{
+                     \n          "id":8470281,
+                     \n          "fullName":"Duncan Keith",
+                     \n          "link":"/api/v1/people/8470281"                     \n
+                  },
+                  \n        "jerseyNumber":"2",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8470320,
+                     \n          "fullName":"Cam Ward",
+                     \n          "link":"/api/v1/people/8470320"                     \n
+                  },
+                  \n        "jerseyNumber":"30",
+                  \n        "position":{
+                     \n          "code":"G",
+                     \n          "name":"Goalie",
+                     \n          "type":"Goalie",
+                     \n          "abbreviation":"G"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8470543,
+                     \n          "fullName":"Chris Kunitz",
+                     \n          "link":"/api/v1/people/8470543"                     \n
+                  },
+                  \n        "jerseyNumber":"14",
+                  \n        "position":{
+                     \n          "code":"L",
+                     \n          "name":"Left Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"LW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8470607,
+                     \n          "fullName":"Brent Seabrook",
+                     \n          "link":"/api/v1/people/8470607"                     \n
+                  },
+                  \n        "jerseyNumber":"7",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8470645,
+                     \n          "fullName":"Corey Crawford",
+                     \n          "link":"/api/v1/people/8470645"                     \n
+                  },
+                  \n        "jerseyNumber":"50",
+                  \n        "position":{
+                     \n          "code":"G",
+                     \n          "name":"Goalie",
+                     \n          "type":"Goalie",
+                     \n          "abbreviation":"G"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8473573,
+                     \n          "fullName":"Artem Anisimov",
+                     \n          "link":"/api/v1/people/8473573"                     \n
+                  },
+                  \n        "jerseyNumber":"15",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8473604,
+                     \n          "fullName":"Jonathan Toews",
+                     \n          "link":"/api/v1/people/8473604"                     \n
+                  },
+                  \n        "jerseyNumber":"19",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8474141,
+                     \n          "fullName":"Patrick Kane",
+                     \n          "link":"/api/v1/people/8474141"                     \n
+                  },
+                  \n        "jerseyNumber":"88",
+                  \n        "position":{
+                     \n          "code":"R",
+                     \n          "name":"Right Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"RW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8475323,
+                     \n          "fullName":"Marcus Kruger",
+                     \n          "link":"/api/v1/people/8475323"                     \n
+                  },
+                  \n        "jerseyNumber":"16",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8476438,
+                     \n          "fullName":"Brandon Saad",
+                     \n          "link":"/api/v1/people/8476438"                     \n
+                  },
+                  \n        "jerseyNumber":"20",
+                  \n        "position":{
+                     \n          "code":"L",
+                     \n          "name":"Left Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"LW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8476473,
+                     \n          "fullName":"Connor Murphy",
+                     \n          "link":"/api/v1/people/8476473"                     \n
+                  },
+                  \n        "jerseyNumber":"5",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8476886,
+                     \n          "fullName":"Slater Koekkoek",
+                     \n          "link":"/api/v1/people/8476886"                     \n
+                  },
+                  \n        "jerseyNumber":"68",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8476979,
+                     \n          "fullName":"Erik Gustafsson",
+                     \n          "link":"/api/v1/people/8476979"                     \n
+                  },
+                  \n        "jerseyNumber":"56",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8477401,
+                     \n          "fullName":"John Hayden",
+                     \n          "link":"/api/v1/people/8477401"                     \n
+                  },
+                  \n        "jerseyNumber":"40",
+                  \n        "position":{
+                     \n          "code":"R",
+                     \n          "name":"Right Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"RW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8477472,
+                     \n          "fullName":"Carl Dahlstrom",
+                     \n          "link":"/api/v1/people/8477472"                     \n
+                  },
+                  \n        "jerseyNumber":"63",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8477943,
+                     \n          "fullName":"Brendan Perlini",
+                     \n          "link":"/api/v1/people/8477943"                     \n
+                  },
+                  \n        "jerseyNumber":"11",
+                  \n        "position":{
+                     \n          "code":"L",
+                     \n          "name":"Left Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"LW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8478055,
+                     \n          "fullName":"Gustav Forsling",
+                     \n          "link":"/api/v1/people/8478055"                     \n
+                  },
+                  \n        "jerseyNumber":"42",
+                  \n        "position":{
+                     \n          "code":"D",
+                     \n          "name":"Defenseman",
+                     \n          "type":"Defenseman",
+                     \n          "abbreviation":"D"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8478440,
+                     \n          "fullName":"Dylan Strome",
+                     \n          "link":"/api/v1/people/8478440"                     \n
+                  },
+                  \n        "jerseyNumber":"17",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8479337,
+                     \n          "fullName":"Alex DeBrincat",
+                     \n          "link":"/api/v1/people/8479337"                     \n
+                  },
+                  \n        "jerseyNumber":"12",
+                  \n        "position":{
+                     \n          "code":"L",
+                     \n          "name":"Left Wing",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"LW"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8479465,
+                     \n          "fullName":"Drake Caggiula",
+                     \n          "link":"/api/v1/people/8479465"                     \n
+                  },
+                  \n        "jerseyNumber":"91",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8480144,
+                     \n          "fullName":"David Kampf",
+                     \n          "link":"/api/v1/people/8480144"                     \n
+                  },
+                  \n        "jerseyNumber":"64",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               },
+               {
+                  \n        "person":{
+                     \n          "id":8480946,
+                     \n          "fullName":"Dominik Kahun",
+                     \n          "link":"/api/v1/people/8480946"                     \n
+                  },
+                  \n        "jerseyNumber":"24",
+                  \n        "position":{
+                     \n          "code":"C",
+                     \n          "name":"Center",
+                     \n          "type":"Forward",
+                     \n          "abbreviation":"C"                     \n
+                  }                  \n
+               }
+            ],
+            \n      "link":"/api/v1/teams/16/roster"            \n
+         },
+         \n    "shortName":"Chicago",
+         \n    "officialSiteUrl":"http://www.chicagoblackhawks.com/",
+         \n    "franchiseId":11,
+         \n    "active":true         \n
+      }
+   ]   \n
+}'
